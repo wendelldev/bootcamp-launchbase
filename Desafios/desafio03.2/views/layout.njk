@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        {% block head %}
+            <title>Desafio03.1-Home</title>
+        {% endblock %}
+
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet"  href="/styles.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <a href="/" class="item">Home</a>
+                <a href="https://discordapp.com/invite/gCRAFhc" class="item" target="_blank">Comunidade</a>
+                <a href="mailto:oi@rocketseat.com.br" class="item">Email</a>
+                <a href="tel:+5547992078767" class="item">Telefone</a>
+                <a href="/courses" class="item">Conteúdos</a>
+                <a href="/sobre" class="item">Sobre</a>
+            </div>
+        </header>
+
+        {% block content %}{% endblock %}
+
+    </body>
+</html>

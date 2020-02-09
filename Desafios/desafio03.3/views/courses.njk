@@ -1,0 +1,38 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+<title>Desafio03.3-Conteúdos</title>
+
+{% endblock %}
+
+{% block content %}
+
+<div id="wrapper">
+    <h1>Conteúdos</h1>
+</div>
+<section class="cards">
+
+    {% for item in data %}
+
+    <div class="card" id="{{item.id}}">
+        <div class="card-image">
+            <img src="{{item.image_url}}" alt="Course img">
+        </div>
+        <div class="card-content">
+            <h1 id="{{item.id}}">{{item.title}}</h1>
+        </div>
+        <div class="card-info">
+            <p>{{item.modules}}</p>
+            <p class="card-price">{{item.price}}</p>
+        </div>
+    </div>
+
+    {% endfor %}
+
+</section>
+
+<script src="/scripts.js"></script>
+
+{% endblock %}

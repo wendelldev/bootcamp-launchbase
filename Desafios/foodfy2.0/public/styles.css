@@ -1,0 +1,421 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: black;
+}
+
+
+body {
+    background-color: white;
+}
+
+header {
+    padding: 30px;
+}
+
+header div {
+    text-align: start;
+}
+
+header .title {
+    font-size: 28px;
+    line-height: 38px;
+    text-decoration: none;
+    margin-left: 15vw;
+}
+
+header .sobre {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-left: 10vw;
+    text-decoration: none;
+}
+
+header .sobre:hover {
+    font-weight: bold;
+}
+
+header .receitas {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-left: 1vw;
+    text-decoration: none;
+}
+
+header .receitas:hover {
+    font-weight: bold;
+}
+
+.card {
+    padding: 30px;
+    max-width: 860px;
+    max-height: 300px;
+    margin: 0 auto;
+    background-color: #FBDFDB;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.card h1 {
+    margin-left: 30px;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card p {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Roboto',sans-serif;
+    opacity: 0.7;
+    
+}
+
+.card img {
+    margin-top: 29px;
+    margin-left: 40px;
+}
+
+.wrapper {
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    max-width: 900px;
+}
+
+.wrapper h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.grid-recipe {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.image-recipe img {
+    width: 100%;
+    height: 115px;
+    border-radius: 15px;
+}
+
+.info-recipe h2 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    font-weight: normal;
+    margin-left: 2px;
+}
+
+.info-recipe p {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+}
+
+footer {
+    padding: 15px;
+    background-color: #eeeeee;
+    height: 35px;
+    margin-top: 50px;
+}
+
+.direitos {
+    text-align: center;
+}
+
+.direitos p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    margin-top: 2vh;
+}
+
+
+
+.texts {
+    max-width: 920px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.title h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title p {
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    margin: 20px 0;
+
+}
+
+.subtitle h2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+.subtitle p {
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    margin: 20px 0;
+
+}
+
+/* Recipe */
+
+.recipe-header {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.recipe-header img{
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.recipe-header h1 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.recipe-header p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+}
+
+
+
+.ingredients {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.prepair {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.information {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.titles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.titles h2 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.titles p {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+    margin-top: 2px;
+    color: #999999;
+}
+.titles p:hover {
+    cursor: pointer;
+    color: #777777;
+}
+
+.list {
+    margin-left: 28px;
+}
+
+.list li {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+}
+
+.text-information p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    margin-left: 10px;
+}
+
+.ingredients-list.hidden {
+    visibility: hidden;
+    height: 10px;
+}
+
+.prepair-list.hidden {
+    visibility: hidden;
+    height: 10px;
+}
+
+.text-information.hidden {
+    visibility: hidden;
+    height: 10px;
+}
+
+
+
+
+
+
+
+/* Animations Begin */
+
+@-webkit-keyframes hvr-bob {
+    0% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+    50% {
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+    }
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+}
+
+@keyframes hvr-bob {
+    0% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+    50% {
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+    }
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+}
+
+@-webkit-keyframes hvr-bob-float {
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+}
+
+@keyframes hvr-bob-float {
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+}
+
+.item-recipe {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.item-recipe:hover, .item-recipe:focus, .item-recipe:active {
+    -webkit-animation-name: hvr-bob-float, hvr-bob;
+    animation-name: hvr-bob-float, hvr-bob;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+    cursor: pointer;
+}
+  
+
+.item-recipe {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.item-recipe:before {
+    border-radius: 16px;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(197, 196, 196);
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.item-recipe:hover, .item-recipe:focus, .item-recipe:active {
+    color: white;
+}
+
+.item-recipe:hover:before, .item-recipe:focus:before, .item-recipe:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}

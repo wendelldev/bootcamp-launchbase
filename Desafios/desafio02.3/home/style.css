@@ -1,0 +1,46 @@
+@import "https://fonts.googleapis.com/css?family=Roboto&display=swap";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: rgb(180, 27, 218);
+}
+
+body {
+    background: #fafafa;
+}
+header {
+    padding: 30px;
+    border-bottom: 1px solid #333;
+    background: rgba(36, 36, 36, 0.822);
+}
+header div {
+    text-align: center;
+}
+header div .item {
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 18px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+header div .item:hover {
+    color: #50fa7b;
+    transition: color 200ms;
+}
+
+header div .home {
+    color: #50fa7b;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 18px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+header div .home:hover {
+    color: white;
+    transition: color 200ms;
+}

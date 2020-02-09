@@ -1,0 +1,36 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+
+<title>{{item.title}}</title>
+
+{% endblock %}
+
+{% block content %}
+
+<div id="wrapper">
+    <h1>{{item.title}}</h1>
+</div>
+<section class="course">
+
+    <div class="card-course" id="{{item.id}}">
+        <div class="card-image-course">
+            <img src="{{item.image_url}}" alt="Course img">
+        </div>
+        <div class="card-content">
+            <h1 id="{{item.id}}">{{item.title}}</h1>
+        </div>
+        <div class="card-info">
+            <p>{{item.modules}}</p>
+            <a class="card-price button-price" href="https://rocketseat.com.br/{{item.id}}" target="_blank">Acesse</a>
+        </div>
+    </div>
+
+</section>
+<div class="course-description">
+    <p>{{item.description}}</p>
+</div>
+
+<script src="/scripts.js"></script>
+
+{% endblock %}
